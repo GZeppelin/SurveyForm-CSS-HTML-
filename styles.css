@@ -1,0 +1,63 @@
+label{
+  display:block;
+  
+}
+input{
+  display:block;
+  
+}
+input[type="text"],input[type="email"],input[type="number"]{
+  width:300px;
+}
+select{
+  display:block;
+}
+.sameline{
+  display:inline;
+}
+.checkBox{
+  display:inline;
+}
+fieldset{
+  border:0px;
+}
+body{
+  background-color:#1b1b32;
+  color:white;
+}
+h1{
+  text-align:center;
+}
+form{
+    width: 50vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+label{
+  margin-bottom:10px;
+}
+.checkbox{
+  margin-bottom:10px;
+}
+.last{
+  text-align:left;
+}
+textarea{
+  width:500px;
+  height:50px;
+  margin-bottom:20px;
+}
+
+#submit{
+  width:500px;
+  height:40px;
+  margin:0 auto;
+  background-color:#3b3b4f;
+  color:white;
+  
+}
+#description{
+  text-align:center;
+}

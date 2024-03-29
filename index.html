@@ -1,0 +1,60 @@
+<!doctype html>
+/*This is a basic css and html practise project.  */
+/* It is from free code camp */
+<html lang="en">
+<link rel="stylesheet" href="styles.css" />
+  <h1 id = "title">freeCodeCamp Survey Form</h1>
+  <p id = "description">Thank you for taking the time to help us improve the platform</p>
+  <form id = "survey-form">
+    <fieldset>
+      <label id ="name-label" for="name">Name<input id="name" name="name" type="text" required placeholder="Enter your name"/></label>
+      <label id ="email-label" for="email">Email<input id="email" name="email"type="email" required placeholder="Enter your email"/></label>
+      <label name="age"id="number-label"for="number">Age(optional)<input id="number" type="number"min="10" max="120"placeholder="Enter your age"/></label>
+      <label for="role">Which option best describes your current role?
+      <select id = "dropdown" name="role">
+        <option value="">select one</option>
+        <option value="1">Student</option>
+        <option value="2">Full time job</option>
+        <option value="3">Full time learner</option>
+        <option value="4">Prefer not to say</option>
+        <option value="5">Other</option>
+      </select>
+      </label>
+    </fieldset>
+    <field>
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <label name="Definitely"><input class="sameline" id="Definitely" name="recommand" type="radio" value="Definityle" checked >Definitely</label>
+      <label name="Maybe"><input class="sameline" id="Maybe" name="recommand" type="radio"value="maybe">Maybe</label>
+      <label name="NotS"><input class="sameline" id="NotS" name="recommand" type="radio" value="NotSure" >Not Sure</label>
+    </fieldset>
+    <fieldset>
+      <label for="improve">What is your favorite feature of freeCodeCamp?</label>
+      <select>
+        <option value="0">Select an option</option>
+        <option value="1">Challenges</option>
+        <option value="2">Project</option>
+        <option value="3">Open Source</option>
+        <option value="4">Community</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <p>What would you like to see improved?(Check all that apply)</p>
+      <input class="checkBox" type="checkbox" value="front">Front-end Projects</input><br>
+      <input class="checkBox" type="checkbox" value="back">Back-end Projects</input><br>
+      <input class="checkBox" type="checkbox" value="visualization">Data Visualization</input><br>
+      <input class="checkBox" type="checkbox" value="challenges">Challenges</input><br>
+      <input class="checkBox" type="checkbox" value="OS community">Open Source Community</input><br>
+      <input class="checkBox" type="checkbox"value="gitter">Gitter help rooms</input><br>
+      <input class="checkBox" type="checkbox" value="vedio">Vedio</input><br>
+      <input class="checkBox" type="checkbox"value="meetup">City Meetups</input><br>
+      <input class="checkBox" type="checkbox"value="wiki">Wiki</input><br>
+      <input class="checkBox" type="checkbox" value="forum">Forum</input><br>
+      <input class="checkBox" type="checkbox" value="addtional">Additional Courses</input><br>
+    </fieldset>
+    <fieldset>
+      <p class="last">Any comments or suggestions?</p>
+      <textarea>Enter your comment here</textarea>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit">
+  </form>
+</html>
